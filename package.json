@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "akashic-sandbox",
     "build": "npm run build:version && npm run build:asset",
     "build:asset": "akashic scan asset",
     "build:version": "node -e 'console.log(require(\"./package.json\").version)' > ./text/version.txt"
@@ -14,5 +15,8 @@
   "license": "",
   "dependencies": {
     "@akashic-extension/akashic-tile": "~2.0.1"
+  },
+  "devDependencies": {
+    "@akashic/akashic-sandbox": "^0.13.35"
   }
 }

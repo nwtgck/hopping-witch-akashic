@@ -5,8 +5,11 @@ Akashicエンジンで作成したフラッピーバードクローンです。
 
 ## 実行方法
 ```sh
-$ akashic-sandbox .
+npm install
+npm start
 ```
+
+Then, you can play the game on <http://localhost:3000/game/>.
 
 ## ゲームルール
 画面をタップすると魔女が飛び上がります。上手く障害物をかわしてください。進んだ距離が得点になります。
