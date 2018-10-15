@@ -9,6 +9,14 @@ npm install
 npm start
 ```
 
+## Export as HTML
+
+```bash
+npm run export
+```
+
+`./dist/` directory should be generated.
+
 Then, you can play the game on <http://localhost:3000/game/>.
 
 ## ゲームルール
